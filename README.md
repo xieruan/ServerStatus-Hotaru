@@ -31,6 +31,9 @@ If some of the assets used in this repo infringe your copyright, please contact 
 
 ```bash
 wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/xieruan/ServerStatus-Hotaru/master/status.sh
+
+wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/xieruan/ServerStatus-Hotaru/master/status1.sh
+
 # wget https://cokemine.coding.net/p/hotarunet/d/ServerStatus-Hotaru/git/raw/master/status.sh 若服务器位于中国大陆建议选择Coding.net仓库
 bash status.sh s
 ```

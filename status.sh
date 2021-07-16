@@ -100,7 +100,7 @@ Download_Server_Status_server() {
   if [[ ! -e "${server_file}" ]]; then
     mkdir "${server_file}"
     mv "/tmp/ServerStatus-Hotaru-master/server/sergate" "${server_file}/sergate"
-    wget -N --no-check-certificate https://github.com/CokeMine/Hotaru_theme/releases/latest/download/hotaru-theme.zip
+    wget -N --no-check-certificate https://mirror.ghproxy.com/https://github.com/CokeMine/Hotaru_theme/releases/latest/download/hotaru-theme.zip
     unzip hotaru-theme.zip && mv "./hotaru-theme" "${web_file}"
   else
     if [[ -e "${server_file}/sergate" ]]; then
@@ -108,7 +108,7 @@ Download_Server_Status_server() {
       mv "/tmp/ServerStatus-Hotaru-master/server/sergate" "${server_file}/sergate"
     else
       mv "/tmp/ServerStatus-Hotaru-master/server/sergate" "${server_file}/sergate"
-      wget -N --no-check-certificate https://github.com/CokeMine/Hotaru_theme/releases/latest/download/hotaru-theme.zip
+      wget -N --no-check-certificate https://mirror.ghproxy.com/https://github.com/CokeMine/Hotaru_theme/releases/latest/download/hotaru-theme.zip
       unzip hotaru-theme.zip && mv "./hotaru-theme" "${web_file}"
     fi
   fi

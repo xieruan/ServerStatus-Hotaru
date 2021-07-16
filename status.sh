@@ -15,12 +15,12 @@ filepath=$(
   pwd
 )
 file_1=$(echo -e "${filepath}" | awk -F "$0" '{print $1}')
-file="/usr/local/ServerStatus"
-web_file="/usr/local/ServerStatus/web"
-server_file="/usr/local/ServerStatus/server"
-server_conf="/usr/local/ServerStatus/server/config.json"
-server_conf_1="/usr/local/ServerStatus/server/config.conf"
-client_file="/usr/local/ServerStatus/client"
+file="/www/wwwroot/ServerStatus"
+web_file="/www/wwwroot/ServerStatus/web"
+server_file="/www/wwwroot/ServerStatus/server"
+server_conf="/www/wwwroot/ServerStatus/server/config.json"
+server_conf_1="/www/wwwroot/ServerStatus/server/config.conf"
+client_file="/www/wwwroot/ServerStatus/client"
 
 client_log_file="/tmp/serverstatus_client.log"
 server_log_file="/tmp/serverstatus_server.log"
